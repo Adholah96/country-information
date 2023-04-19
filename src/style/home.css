@@ -3,19 +3,23 @@
   grid-template-columns: 6fr 6fr;
   background-color: #f8669c;
 }
+
 .flag-bearer img {
   max-width: 70%;
   height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.details-tab:nth-child(4n + 3),
-.details-tab:nth-child(4n + 2) {
-  background-color: #cb4276;
-}
+
 .details-tab {
   text-decoration: none;
   height: 150px;
 }
+
+.details-tab:nth-child(4n + 3),
+.details-tab:nth-child(4n + 2) {
+  background-color: #cb4276;
+}
+
 .detail-container {
   height: 150px;
   display: flex;
@@ -23,9 +27,11 @@
   cursor: pointer;
   padding: 10px;
 }
+
 a {
   text-decoration: none;
 }
+
 .description {
   color: white;
   font-size: 15px;
@@ -33,21 +39,22 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
-.description p {
-  font-size: 13x;
-}
+
 .toDetails {
   color: white;
   font-size: 30px;
   float: right;
 }
+
 .search-bar-container {
   height: 100px;
   background-color: #fa73a4;
 }
+
 .search-bar-container h2 {
   color: white;
 }
+
 .search-bar {
   border-radius: 20px;
   border: none;
