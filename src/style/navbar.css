@@ -1,0 +1,23 @@
+nav {
+  height: 40px;
+  background-color: #cb4276;
+  color: white;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul > li {
+  font-size: 20px;
+}
+.settings {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.microphone {
+  margin-right: 20px;
+  font-size: 20px;
+}
