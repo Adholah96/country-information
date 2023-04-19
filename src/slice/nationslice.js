@@ -25,6 +25,9 @@ export const eachCountry = createAsyncThunk(
           capital: nation.capital,
           area: nation.area,
           alphacode: nation.alpha3Code,
+          region: nation.region,
+          callingcode: nation.callingCodes[0],
+          timezone: nation.timezones[0],
         };
         nationData.push(aNation);
       });
