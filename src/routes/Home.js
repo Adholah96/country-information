@@ -13,7 +13,6 @@ function Home() {
   }, [dispatch]);
 
   const nations = useSelector((store) => store.nationReducer);
-  console.log(nations.name);
 
   const [finder, setFinder] = useState('');
 

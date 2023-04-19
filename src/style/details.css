@@ -1,0 +1,29 @@
+.details-container {
+  height: 100vh;
+}
+.heading {
+  height: 50vh;
+  background-color: #fbafcb;
+  padding: 2rem;
+}
+.heading img {
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading h2 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 2em;
+}
+.more-details {
+  background-color: #cb4276;
+}
+.more-details p {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1em 0.6em;
+}
+.more-details p:nth-child(even) {
+  background-color: #fbafcb;
+}
