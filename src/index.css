@@ -1,11 +1,8 @@
-* {
-  margin: none;
-  padding: none;
-  box-sizing: border-box;
-  color: white;
-  font-size: 15px;
-}
-
 ul {
   list-style-type: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
