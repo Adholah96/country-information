@@ -7,7 +7,7 @@ function Details() {
   const params = useParams();
   const nations = useSelector((store) => store.nationReducer);
   const eachNation = nations.find(
-    (nation) => nation.name === params.nationName,
+    (nation) => nation.name === params.nationName
   );
 
   useEffect(() => window.scrollTo(0, 0), []);
@@ -21,9 +21,7 @@ function Details() {
             className="flag-image"
           />
           <h2>
-            Country :
-            {' '}
-            <span>{eachNation.name}</span>
+            Country : <span>{eachNation.name}</span>
           </h2>
         </div>
         <div className="more-details">
