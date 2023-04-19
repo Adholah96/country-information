@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { eachCountry } from '../slice/nationslice';
 import Nation from '../components/Nation';
+import '../style/home.css';
 
 function Home() {
   const dispatch = useDispatch();

@@ -1,0 +1,23 @@
+.nation-holder {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  background-color: #f8669c;
+}
+.flag-bearer img {
+  max-width: 70%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.details-tab:nth-child(4n + 3),
+.details-tab:nth-child(4n + 2) {
+  background-color: #cb4276;
+}
+.details-tab {
+  text-decoration: none;
+}
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+}
