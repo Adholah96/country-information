@@ -47,10 +47,10 @@ describe('Home component', () => {
         <MemoryRouter>
           <Home />
         </MemoryRouter>
-      </Provider>
+      </Provider>,
     );
     expect(
-      screen.getByPlaceholderText('search by country name')
+      screen.getByPlaceholderText('search by country name'),
     ).toBeInTheDocument();
     expect(screen.getAllByRole('link')).toHaveLength(3);
   });
@@ -61,7 +61,7 @@ describe('Home component', () => {
         <MemoryRouter>
           <Home />
         </MemoryRouter>
-      </Provider>
+      </Provider>,
     );
     const searchInput = screen.getByPlaceholderText('search by country name');
     fireEvent.change(searchInput, { target: { value: 'au' } });
@@ -74,7 +74,7 @@ describe('Home component', () => {
         <MemoryRouter>
           <Home />
         </MemoryRouter>
-      </Provider>
+      </Provider>,
     );
   });
 });

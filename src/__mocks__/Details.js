@@ -6,7 +6,9 @@ const Details = () => (
       <div className="heading">
         <img src="img" alt="flag" className="flag-image" />
         <h2>
-          Country : <span>Kenya</span>
+          Country :
+          {' '}
+          <span>Kenya</span>
         </h2>
       </div>
       <div className="more-details">
