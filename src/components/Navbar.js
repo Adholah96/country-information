@@ -1,5 +1,7 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { BiLeftArrowAlt } from 'react-icons/bi';
+import { FaMicrophone, FaRegSun } from 'react-icons/fa';
+import '../style/navbar.css';
 
 const Navbar = () => {
   const navigation = useNavigate();
@@ -15,7 +17,11 @@ const Navbar = () => {
             <BiLeftArrowAlt onClick={() => navigation('/')} />
           )}
         </li>
-        <li>{locate.pathname === '/' ? 'Nation Info' : 'Details'}</li>
+        <li>{locate.pathname === '/' ? 'Nation Informations' : 'Details'}</li>
+        <div className="icones">
+          <FaMicrophone className="settings" />
+          <FaRegSun className="microphone" />
+        </div>
       </ul>
     </nav>
   );
