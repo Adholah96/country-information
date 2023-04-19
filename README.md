@@ -17,6 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -162,7 +163,7 @@ If you like this project,give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to everyone whose idea and codebase was used in this project. Moreso to other Micronauts who have actively offered their support in bug fixing🙏
+Thanks to everyone whose idea and codebase was used in this project. Moreso to other Micronauts who have actively offered their support in bug fixing🙏. I would also like to pass my sincer gratitude to [Nelson Sakwa](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>) for the sleek design that inspired the design of the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
